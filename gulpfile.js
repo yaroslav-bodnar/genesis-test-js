@@ -1,4 +1,5 @@
 var gulp          = require('gulp');
+var livereload    = require('gulp-livereload');
 var browserSync   = require('browser-sync').create();
 var rename        = require('gulp-rename');
 var sass          = require('gulp-sass');
@@ -11,7 +12,6 @@ function conwert(done) {
 	gulp.src('./src/sass/*.sass')
 		.pipe(sass({
 			errorLogToConsole: true
-			// outputStyle: 'compressed' Сжимает сss код- будет без пробелов и в одну строчку
 		}))
 		.on('error', console.error.bind(console))
 		.pipe(autoprefixer({
@@ -23,7 +23,7 @@ function conwert(done) {
 		.pipe(browserSync.stream());
 done();
 }
-// БРАУЗЕР АВТОМАТОМ  МОЖЕТ НЕ ОБНОВЛЯТЬ, А ИНОГДА РАБОТАЕТ!!!!
+
 function browser(done) {
 	browserSync.init({
 		server: {
