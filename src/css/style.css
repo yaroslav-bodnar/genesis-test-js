@@ -55,7 +55,7 @@
 .footer-step-2 {
   position: absolute;
   z-index: 5;
-  top: 979px;
+  top: 1020px;
   max-width: 1075px;
   background: rgba(205, 214, 219, 0.74);
   padding: 0px 179px 22px 177px;
@@ -86,7 +86,7 @@
 .footer-step-3 {
   position: absolute;
   z-index: 5;
-  top: 979px;
+  top: 1020px;
   max-width: 1075px;
   background: rgba(205, 214, 219, 0.74);
   padding: 0px 179px 22px 177px;
@@ -246,7 +246,7 @@
         left: 140px; }
       .header__home-page__aside-step-2__workspace__options__option-B {
         background: #fff;
-        padding: 35px 113px 19px 127px;
+        padding: 35px 100px 19px 127px;
         color: #3b3b3b;
         font-size: 26px;
         font-weight: 400;
@@ -412,7 +412,7 @@
         position: relative;
         cursor: pointer;
         top: 26px;
-        left: -65px; }
+        left: -86px; }
         .header__home-page__aside-step-3__workspace__form__text-1:before {
           content: '';
           position: absolute;
@@ -452,7 +452,7 @@
         position: relative;
         cursor: pointer;
         top: 26px;
-        left: 180px; }
+        left: 160px; }
         .header__home-page__aside-step-3__workspace__form__text-2:before {
           content: '';
           position: absolute;
